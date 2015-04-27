@@ -555,7 +555,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      onKeyDown: this.handleKeyDown,
 	      onFocus: this.props.onFocus,
 	      onChange: this.handleChange,
-	      className: "datepicker__input",
+	      className: this.props.className || "datepicker__input",
 	      placeholder: this.props.placeholderText });
 	  }
 	});
